@@ -2335,3 +2335,7 @@ img[height] {
 .u-show-xl {
   display: none !important;
 }
+
+.t-section--header.default {
+  color: red;
+}

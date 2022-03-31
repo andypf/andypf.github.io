@@ -15,6 +15,13 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.hbs$/,
+        loader: "handlebars-loader",
+        options: {
+          inlineRequires: "/images/",
+        },
+      },
+      {
         test: /\.css$/i,
         use: ["style-loader", "css-loader"],
       },
@@ -26,15 +33,18 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: "src/index.html",
-      favicon: "",
+      title: "Pfau Software",
+      template: "src/views/home.hbs",
+      filename: "index.html",
       hash: true,
     }),
     new HtmlWebpackPlugin({
+      title: "Pfau Software - Datenschutz",
+      template: "src/views/privacy.hbs",
       filename: "privacy.html",
-      template: "src/privacy.html",
       hash: true,
     }),
+
     new WebpackPwaManifest({
       name: "Pfau Software",
       short_name: "pfau",
