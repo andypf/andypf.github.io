@@ -1,9 +1,9 @@
-import Typewriter from "typewriter-effect/dist/core"
-import "./assets/css/main.css"
-import "./assets/css/themes.dark.css"
+import Typewriter from "typewriter-effect/dist/core";
+import "./assets/css/main.css";
+import "./assets/css/themes.dark.css";
 
 new Typewriter("#typewriter", {
-  strings: ["Hello", "World"],
+  strings: ["Planing", "Developing", "Deployment"],
   autoStart: true,
-  loop: true,
-})
+  loop: false,
+});
