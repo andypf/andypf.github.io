@@ -1,0 +1,36 @@
+Arguments: 
+  /usr/local/bin/node /opt/yarn-v1.22.18/bin/yarn.js init
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  17.9.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/opt/yarn-v1.22.18/lib/cli.js:137143:13)
+      at Interface.emit (node:events:527:28)
+      at Interface.[_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1117:18)
+      at ReadStream.onkeypress (node:internal/readline/interface:269:20)
+      at ReadStream.emit (node:events:527:28)
+      at emitKeys (node:internal/readline/utils:358:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
+      at ReadStream.emit (node:events:527:28)
+      at addChunk (node:internal/streams/readable:324:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
