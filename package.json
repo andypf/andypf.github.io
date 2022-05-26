@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "dev": "serve -l tcp://0.0.0.0:$APP_PORT -s src",
+    "prod": "serve -l tcp://0.0.0.0:$APP_PORT -s dist",
+    "build": "rm -rf dist ; mkdir -p dist ; html-minifier --collapse-whitespace --remove-comments --remove-optional-tags --remove-redundant-attributes --remove-tag-whitespace --use-short-doctype --input-dir src --output-dir dist --file-ext html ; cp -r src/images dist/ ; css-minify -d src/css -o dist/css ; sed -i 's/\\.css/.min.css/' dist/*.html",
+    "clear": "rm -rf dist"
+  },
+  "dependencies": {
+    "css-minify": "^2.0.0",
+    "html-minifier": "^4.0.0",
+    "serve": "^13.0.2"
+  }
+}
