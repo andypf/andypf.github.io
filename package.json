@@ -1,4 +1,5 @@
 {
+  "name": "pfau-software",
   "type": "module",
   "scripts": {
     "dev": "serve -l tcp://0.0.0.0:$APP_PORT src",
@@ -12,6 +13,7 @@
   "devDependencies": {
     "fs-extra": "^10.1.0",
     "glob": "^8.0.3",
-    "minify": "^8.0.4"
-  }
+    "minify": "^9.1.0"
+  },
+  "version": "0.0.0"
 }

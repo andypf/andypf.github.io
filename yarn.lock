@@ -495,10 +495,10 @@ mime-types@~2.1.34:
   dependencies:
     mime-db "1.52.0"
 
-minify@^8.0.4:
-  version "8.0.4"
-  resolved "https://registry.yarnpkg.com/minify/-/minify-8.0.4.tgz#c6ee10a887b0da8c24f45098c217382eb0be55f0"
-  integrity sha512-NA3ia+/VbjxgPb6Oo7aebvi0WGKHyNWGPg4m018CmWT1Ar8CXLnpz7Ux1ccaVPfADjs3Yv8hc4NuBvUVdIZ21A==
+minify@^9.1.0:
+  version "9.1.0"
+  resolved "https://registry.yarnpkg.com/minify/-/minify-9.1.0.tgz#30a527d3214d6236d05eb6a43d65a7f4a60d4ada"
+  integrity sha512-1/VsCf9hNOE5dntVUaGGVfo5s2+k6LQsZx9HR2EX5/MUiNmDr0MTFGFD56ouz3yks8vjCVTrH1wir6gTF0anhw==
   dependencies:
     clean-css "^5.0.1"
     css-b64-images "~0.2.5"
