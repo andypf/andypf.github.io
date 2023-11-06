@@ -21,5 +21,8 @@ To bring the latest changes to the website, you need to follow these steps:
    npm run deploy
 
 ## Workspace
-1. wb npm build
-2. yarn deploy
+1. wb yarn build
+2. git add -A
+3. git commit -m "new version of web pages"
+4. git push
+5. yarn deploy
