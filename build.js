@@ -53,3 +53,8 @@ fse.copySync(`${src}/images`, `${dist}/images`, {}, (err) => {
   if (err) console.error(err)
   else console.info("images copyed")
 })
+
+fse.copySync(`${src}/CNAME`, `${dist}/CNAME`, {}, (err) => {
+  if (err) console.error(err)
+  else console.info("CNAME copyed")
+})

@@ -5,7 +5,8 @@
     "dev": "serve -l tcp://0.0.0.0:$APP_PORT src",
     "prod": "serve -l tcp://0.0.0.0:$APP_PORT dist",
     "build": "node build.js",
-    "clear": "rm -rf dist"
+    "clear": "rm -rf dist",
+    "deploy": "git subtree push --prefix dist github-pages gh-pages"
   },
   "dependencies": {
     "serve": "^13.0.2"
