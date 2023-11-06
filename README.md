@@ -1,21 +1,21 @@
-# pfau-software Webpräsenz Repository
+# pfau-software Website Repository
 
-Dieses Repository dient zur Bereitstellung der Webpräsenz von pfau-software. Die Quellcode-Dateien für die Website befinden sich in einem privaten Repository.
+This is the repository used to host the pfau-software website. The source code for the website is located in a private repository.
 
-## Zweck
+## Purpose
 
-- Dieses Repository hostet die produzierten Seiten und Assets der pfau-software-Webpräsenz.
-- Die bereitgestellten Inhalte und Ressourcen werden im Branch "production" gespeichert.
+- This repository hosts the produced pages and assets of the pfau-software website.
+- The provided contents and resources are stored in the "production" branch.
 
-## Bereitstellung
+## Deployment
 
-Um die aktuellsten Änderungen auf die Webpräsenz zu bringen, müssen Sie die folgenden Schritte befolgen:
+To bring the latest changes to the website, you need to follow these steps:
 
-1. **Build**: Stellen Sie sicher, dass die aktuellen Ausgaben mithilfe des Build-Prozesses generiert werden.
+1. **Build**: Ensure that the current outputs are generated using the build process.
 
-2. **Deploy**: Verwenden Sie den folgenden Befehl, um die generierten Seiten und Assets in den "production"-Branch hochzuladen:
+2. **Deploy**: Use the following command to upload the generated pages and assets to the "production" branch:
 
    ```sh
    yarn deploy
-   # oder
+   # or
    npm run deploy
