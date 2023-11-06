@@ -19,3 +19,7 @@ To bring the latest changes to the website, you need to follow these steps:
    yarn deploy
    # or
    npm run deploy
+
+## Workspace
+1. wb npm build
+2. yarn deploy
